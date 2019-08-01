@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(../img/Fondo2.jpg);
+  background-position: center center; /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+  background-repeat: no-repeat; /* Para que la imagen de fondo no se repita */
+  background-attachment: fixed; /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+  background-size: cover;
+  overflow:scroll;
+}
+header {
+  width: 100%; /* Establecemos que el header abarque el 100% del documento */
+  overflow: hidden; /* Eliminamos errores de float */
+  background: #0d0d0e;
+  margin-bottom: 30px;
+}
+
+.position {
+  width: 50%; /* Establecemos que el header abarque el 100% del documento */
+  overflow: hidden; /* Eliminamos errores de float */
+  background: #0d0d0e;
+  margin-bottom: 30px;
+  margin-left: 20%;
+  margin-right: 50%;
+}
+h1 {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+.centrado {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+}
+.wrapper {
+  width: 80%; /* Establecemos que el ancho sera del 90% */
+  max-width: 10000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+  margin: auto; /* Centramos los elementos */
+  overflow: hidden; /* Eliminamos errores de float */
+}
+
+header .logo {
+  background-repeat: no-repeat;
+  color: #2dc3ce;
+  font-size: 25px;
+  line-height: 100px;
+  float: left;
+}
+
+header nav {
+  float: right;
+  line-height: 80px; /*el ancho del header */
+}
+
+header nav a {
+  display: inline-block;
+  color: rgba(248, 241, 241, 0.938);
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 25px;
+  font-weight: bold;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+header nav a:hover {
+  background: url(../img/navigation-bg.jpg);
+  border-radius: 60px;
+}
+h1 {
+  text-align: center;
+  color: red;
+  font-size: 40px;
+  font-style: arial;
+}
+font {
+  color: #000;
+  font-style: arial;
+  font-size: 20px;
+  text-align: justify;
+}
+.video-youtube {
+  border: 5px solid rgb(15, 110, 219);
+  height: 0px;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video-youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.youtube-wrapper {
+  width: 40%;
+  margin: auto;
+
+}
+
+h2{
+color:white;
+text-align: justify;
+width: 95%;
+
+}
+.prueba {
+  width: 92%;
+  background: url(../img/Ganera3.jpg);
+   background-repeat: no-repeat;
+   padding: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.prueba a{
+color :red;
+font-size: 20px;
+
+}
+.op{
+    width: 90%;
+  color :black;
+text-align: justify;
+  margin-left: 5%;
+  font-size: 25px;
+  font-style: initial;
+  font-weight: bold;
+
+}
+.op a{
+color: blue;
+font-size: 25PX;
+
+}
+div p {
+  color: red;   
+}
+footer {
+  /*text-align: center;*/
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  font-size: 25px;
+}
+footer p {
+  color: white;
+}
